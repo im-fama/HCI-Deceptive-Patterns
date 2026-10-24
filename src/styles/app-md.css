@@ -1,0 +1,224 @@
+/* Android conventions (Material Design 3).
+   Do NOT style .disc, .pw-decline or .pw-check here. */
+
+.sn-app.md {
+  font-family: "Roboto", system-ui, Arial, sans-serif;
+}
+
+.sn-app.md .sn-statusbar {
+  height: 36px;
+  padding: 0 20px 0 24px;
+}
+.sn-app.md .sn-time {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sn-app.md .sn-home-ind {
+  bottom: 8px;
+  width: 108px;
+  height: 4px;
+  border-radius: 2px;
+  background: #79747e;
+}
+.sn-app.md.scr-home {
+  background: #f7f9f8;
+}
+
+.sn-app.md .sn-h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* Buttons: full pill */
+.sn-app.md .sn-btn,
+.sn-app.md .pw-cta {
+  height: 48px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+/* Onboarding dots: active one stretches into a pill */
+.sn-app.md .onb-dots span.on {
+  width: 24px;
+}
+
+/* Home */
+.sn-app.md .home {
+  background: #f7f9f8;
+}
+.sn-app.md .home-head {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 0 20px;
+}
+.sn-app.md .home-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.sn-app.md .home-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #cde8df;
+  color: #0e3b30;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sn-app.md .home-sec {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brand);
+  letter-spacing: 0.1px;
+}
+.sn-app.md .home-card {
+  border-radius: 16px;
+  border: 1px solid #dce3e0;
+}
+.sn-app.md .tabbar {
+  height: calc(72px + var(--ind-pad));
+  background: #eef3f1;
+  padding-top: 10px;
+}
+.sn-app.md .tab {
+  color: #49454f;
+  gap: 4px;
+}
+.sn-app.md .tab-ico {
+  width: 56px;
+  height: 28px;
+  border-radius: 14px;
+}
+.sn-app.md .tab.active .tab-ico {
+  background: #cde8df;
+  color: #0e3b30;
+}
+.sn-app.md .tab.active .tab-label {
+  font-weight: 700;
+}
+.sn-app.md .tab-label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Paywall */
+.sn-app.md .pw-badge {
+  border-radius: 20px;
+}
+.sn-app.md .pw-title {
+  font-weight: 400;
+}
+.sn-app.md .pw-plan {
+  border-radius: 12px;
+  border: 1px solid #79747e;
+}
+.sn-app.md .pw-radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #49454f;
+}
+.sn-app.md .pw-radio-mark {
+  display: none;
+}
+.sn-app.md .pw-plan.sel .pw-radio {
+  border-color: var(--brand);
+}
+.sn-app.md .pw-plan.sel .pw-radio::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--brand);
+}
+.sn-app.md .pw-box {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 2px solid #49454f;
+}
+
+/* Purchase sheet (Play-like, unbranded) */
+.sn-app.md .sheet {
+  background: #fff;
+  border-radius: 28px 28px 0 0;
+  padding: 10px 24px calc(16px + var(--ind-pad));
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sn-app.md .sheet-handle {
+  width: 32px;
+  height: 4px;
+  border-radius: 2px;
+  background: #79747e;
+  opacity: 0.4;
+  align-self: center;
+}
+.sn-app.md .sheet-app-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+.sn-app.md .sheet-app-sub {
+  font-size: 13px;
+  color: #444746;
+}
+.sn-app.md .sheet-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.sn-app.md .sheet-timeline li {
+  display: grid;
+  grid-template-columns: 16px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+.sn-app.md .tl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #0b57d0;
+}
+.sn-app.md .tl-right {
+  font-weight: 500;
+}
+.sn-app.md .sheet-bullets {
+  margin: 0;
+  padding: 0 0 0 18px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #444746;
+}
+.sn-app.md .sheet-link {
+  color: #0b57d0;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+.sn-app.md .sheet-actions {
+  align-items: stretch;
+}
+.sn-app.md .sheet-subscribe {
+  background: #0b57d0;
+  color: #fff;
+  height: 40px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sn-app.md .sheet-cancel-text {
+  color: #0b57d0;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+}

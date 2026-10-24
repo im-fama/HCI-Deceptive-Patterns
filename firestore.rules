@@ -1,0 +1,49 @@
+rules_version = '2';
+
+// StudyNest. Participants use anonymous auth; researchers sign in with email/password.
+// Add every researcher's sign-in email to isResearcher() before deploying.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isResearcher() {
+      return signedIn()
+        && request.auth.token.email in [
+          'researcher1@example.com',
+          'researcher2@example.com',
+          'researcher3@example.com'
+        ];
+    }
+
+    match /sessions/{sessionId} {
+      // Participants create their own session (uid stored on create) and update only their own.
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid;
+      allow update: if signedIn()
+        && resource.data.uid == request.auth.uid
+        && request.resource.data.uid == request.auth.uid;
+      // No participant reads of any session; researchers can read everything.
+      allow read: if isResearcher();
+      allow delete: if isResearcher();
+
+      // Event chunks for long sessions.
+      match /events/{chunkId} {
+        allow create, update: if signedIn()
+          && get(/databases/$(database)/documents/sessions/$(sessionId)).data.uid == request.auth.uid;
+        allow read: if isResearcher();
+      }
+    }
+
+    match /config/blocks {
+      // Assignment queues: any authenticated user may update (done inside a transaction).
+      allow read, write: if signedIn();
+    }
+
+    match /config/settings {
+      allow read: if signedIn();
+      allow write: if isResearcher();
+    }
+  }
+}

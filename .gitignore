@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+test-results
+playwright-report
+analysis/.venv
+analysis/out
+__pycache__
+.ipynb_checkpoints
+*.log
