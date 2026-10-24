@@ -68,6 +68,7 @@ test("4. monthly path hides the check box", async ({ page }) => {
 });
 
 test("5. the same path in ?v=ios and ?v=md produces the same data-id sequence", async ({ page }) => {
+  test.slow(); // two full sessions
   const path = async (p: Page) => {
     await p.click(id("plan-monthly"));
     await p.click(id("plan-annual"));

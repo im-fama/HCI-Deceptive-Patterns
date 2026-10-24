@@ -1,0 +1,8310 @@
+[
+ {
+  "id": "SN-WXY97",
+  "startedAt": "2026-11-02T09:00:00Z",
+  "consentAt": "2026-11-02T09:00:30Z",
+  "completedAt": "2026-11-02T09:08:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "<1",
+   "safer": "unsure",
+   "saferConf": 5,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 3,
+   "t4": 6,
+   "t5": 2,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3743,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.67,
+    "y": 0.551,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3758,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7778,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.265,
+    "y": 0.644,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7793,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 11851,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.472,
+    "y": 0.839,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11866,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11880,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11900,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15372,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.493,
+    "y": 0.621,
+    "target": "pw-cta"
+   },
+   {
+    "t": 15372,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 15379,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 15379,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 21181,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.472,
+    "y": 0.92,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 21181,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 21181,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 21198,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23877,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.587,
+    "y": 0.159,
+    "target": "finish"
+   },
+   {
+    "t": 23877,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 9332,
+   "decision_latency_ms": 3506,
+   "disclosure_visible_ms": 3479,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5802,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23877
+  }
+ },
+ {
+  "id": "SN-K4ZWJ",
+  "startedAt": "2026-11-02T09:37:00Z",
+  "consentAt": "2026-11-02T09:37:30Z",
+  "completedAt": "2026-11-02T09:45:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 7
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 4,
+   "t4": 4,
+   "t5": 3,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 6
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3391,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.384,
+    "y": 0.589,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3406,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6913,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.147,
+    "y": 0.715,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6928,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8727,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.418,
+    "y": 0.833,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8727,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 14294,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.164,
+    "y": 0.459,
+    "target": "locked-tests"
+   },
+   {
+    "t": 14312,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 14325,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 14338,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 19864,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.536,
+    "y": 0.636,
+    "target": "pw-cta"
+   },
+   {
+    "t": 19864,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 19873,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 19873,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 24312,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.482,
+    "y": 0.915,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 24312,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 24312,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 24325,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 26443,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.166,
+    "y": 0.221,
+    "target": "finish"
+   },
+   {
+    "t": 26443,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 10013,
+   "decision_latency_ms": 5552,
+   "disclosure_visible_ms": 5535,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 4439,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 26443
+  }
+ },
+ {
+  "id": "SN-BVFSZ",
+  "startedAt": "2026-11-02T10:14:00Z",
+  "consentAt": "2026-11-02T10:14:30Z",
+  "completedAt": "2026-11-02T10:22:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "same",
+   "saferConf": 6,
+   "techConf": 7
+  },
+  "post": {
+   "t1": 1,
+   "t2": 3,
+   "t3": 2,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1754,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.252,
+    "y": 0.888,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1769,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5058,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.23,
+    "y": 0.372,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5073,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 5858,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.553,
+    "y": 0.529,
+    "target": "deck-biology"
+   },
+   {
+    "t": 5858,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10336,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.591,
+    "y": 0.156,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10349,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10373,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10402,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15835,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.2,
+    "y": 0.538,
+    "target": "autorenew"
+   },
+   {
+    "t": 15835,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 29767,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.485,
+    "y": 0.631,
+    "target": "pw-cta"
+   },
+   {
+    "t": 29767,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 29777,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 29777,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 35094,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.474,
+    "y": 0.921,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 35094,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 35094,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 35106,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 37024,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.7,
+    "y": 0.692,
+    "target": "finish"
+   },
+   {
+    "t": 37024,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 24757,
+   "decision_latency_ms": 19418,
+   "disclosure_visible_ms": 19375,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5317,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 37024
+  }
+ },
+ {
+  "id": "SN-H2N8M",
+  "startedAt": "2026-11-02T10:51:00Z",
+  "consentAt": "2026-11-02T10:51:30Z",
+  "completedAt": "2026-11-02T10:59:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 3,
+   "t4": 3,
+   "t5": 2,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 6
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2299,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.745,
+    "y": 0.755,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2314,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6829,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.743,
+    "y": 0.26,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6844,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8566,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.892,
+    "y": 0.732,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8583,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 8596,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8613,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 12933,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.492,
+    "y": 0.453,
+    "target": "plan-monthly"
+   },
+   {
+    "t": 12933,
+    "type": "plan_change",
+    "screen": "paywall",
+    "plan": "monthly"
+   },
+   {
+    "t": 17796,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.523,
+    "y": 0.641,
+    "target": "pw-cta"
+   },
+   {
+    "t": 17796,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 17802,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 17802,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20138,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.492,
+    "y": 0.921,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20138,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20138,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "paid_monthly",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 20151,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23627,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.599,
+    "y": 0.82,
+    "target": "finish"
+   },
+   {
+    "t": 23627,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "paid_monthly",
+   "susceptible": true,
+   "paywall_dwell_ms": 11568,
+   "decision_latency_ms": 9213,
+   "disclosure_visible_ms": 9189,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 2336,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 1,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23627
+  }
+ },
+ {
+  "id": "SN-74JKB",
+  "startedAt": "2026-11-02T11:28:00Z",
+  "consentAt": "2026-11-02T11:28:30Z",
+  "completedAt": "2026-11-02T11:36:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "android",
+   "saferConf": 3,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 2,
+   "t2": 4,
+   "t3": 4,
+   "t4": 5,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2020,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.122,
+    "y": 0.573,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2035,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5426,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.745,
+    "y": 0.217,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5441,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10811,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.626,
+    "y": 0.38,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10829,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10851,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10864,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13039,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.579,
+    "y": 0.633,
+    "target": "pw-cta"
+   },
+   {
+    "t": 13039,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 13043,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 13043,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 18856,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.5,
+    "y": 0.913,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 18856,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 18856,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 18869,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 21233,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.122,
+    "y": 0.27,
+    "target": "finish"
+   },
+   {
+    "t": 21233,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 8040,
+   "decision_latency_ms": 2210,
+   "disclosure_visible_ms": 2179,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5813,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 21233
+  }
+ },
+ {
+  "id": "SN-5EPVH",
+  "startedAt": "2026-11-02T12:05:00Z",
+  "consentAt": "2026-11-02T12:05:30Z",
+  "completedAt": "2026-11-02T12:13:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "unsure",
+   "saferConf": 7,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 3,
+   "t2": 3,
+   "t3": 4,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3775,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.486,
+    "y": 0.721,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3790,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7569,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.145,
+    "y": 0.253,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7584,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8769,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.506,
+    "y": 0.549,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8769,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10788,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.455,
+    "y": 0.59,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10806,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10830,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10867,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 14500,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.491,
+    "y": 0.625,
+    "target": "pw-cta"
+   },
+   {
+    "t": 14500,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 14510,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 14510,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20169,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.469,
+    "y": 0.937,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20169,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20169,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 20183,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23974,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.814,
+    "y": 0.262,
+    "target": "finish"
+   },
+   {
+    "t": 23974,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 9377,
+   "decision_latency_ms": 3694,
+   "disclosure_visible_ms": 3643,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5659,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23974
+  }
+ },
+ {
+  "id": "SN-WFTDM",
+  "startedAt": "2026-11-02T12:42:00Z",
+  "consentAt": "2026-11-02T12:42:30Z",
+  "completedAt": "2026-11-02T12:50:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 2,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 4,
+   "t2": 2,
+   "t3": 4,
+   "t4": 3,
+   "t5": 2,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2399,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.697,
+    "y": 0.175,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2414,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5894,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.23,
+    "y": 0.634,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5909,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8461,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.895,
+    "y": 0.423,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8461,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 13412,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.257,
+    "y": 0.355,
+    "target": "locked-tests"
+   },
+   {
+    "t": 13427,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 13432,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 13458,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 23972,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.245,
+    "y": 0.561,
+    "target": "autorenew"
+   },
+   {
+    "t": 23972,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 36834,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.475,
+    "y": 0.629,
+    "target": "pw-cta"
+   },
+   {
+    "t": 36834,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 36838,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 36838,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 38774,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.214,
+    "y": 0.859,
+    "target": "sheet-details"
+   },
+   {
+    "t": 38774,
+    "type": "view_details",
+    "screen": "paywall"
+   },
+   {
+    "t": 42449,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.491,
+    "y": 0.946,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 42449,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 42449,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 42461,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 45068,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.705,
+    "y": 0.756,
+    "target": "finish"
+   },
+   {
+    "t": 45068,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 29034,
+   "decision_latency_ms": 23407,
+   "disclosure_visible_ms": 23380,
+   "view_details_taps": 1,
+   "sheet_dwell_ms": 5611,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 45068
+  }
+ },
+ {
+  "id": "SN-R6G59",
+  "startedAt": "2026-11-02T13:19:00Z",
+  "consentAt": "2026-11-02T13:19:30Z",
+  "completedAt": "2026-11-02T13:27:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "unsure",
+   "saferConf": 4,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 5,
+   "t2": 4,
+   "t3": 4,
+   "t4": 1,
+   "t5": 4,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3765,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.434,
+    "y": 0.832,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3780,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7811,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.203,
+    "y": 0.522,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7826,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9059,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.875,
+    "y": 0.31,
+    "target": "deck-biology"
+   },
+   {
+    "t": 9059,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 12042,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.261,
+    "y": 0.35,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12056,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12077,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12095,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 24596,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.072,
+    "y": 0.063,
+    "target": "pw-close"
+   },
+   {
+    "t": 24596,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 24596,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 24596,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 24610,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 27531,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.743,
+    "y": 0.896,
+    "target": "finish"
+   },
+   {
+    "t": 27531,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 12554,
+   "decision_latency_ms": 12540,
+   "disclosure_visible_ms": 12501,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 27531
+  }
+ },
+ {
+  "id": "SN-PYMAX",
+  "startedAt": "2026-11-02T13:56:00Z",
+  "consentAt": "2026-11-02T13:56:30Z",
+  "completedAt": "2026-11-02T14:04:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 7,
+   "t4": 3,
+   "t5": 3,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3157,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.892,
+    "y": 0.886,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3172,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 8085,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.204,
+    "y": 0.157,
+    "target": "onb-continue"
+   },
+   {
+    "t": 8100,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 11678,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.445,
+    "y": 0.144,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11698,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11715,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11752,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 36724,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.54,
+    "y": 0.757,
+    "target": "pw-decline"
+   },
+   {
+    "t": 36724,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 36724,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 36724,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 36738,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 38423,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.468,
+    "y": 0.226,
+    "target": "finish"
+   },
+   {
+    "t": 38423,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 25040,
+   "decision_latency_ms": 25026,
+   "disclosure_visible_ms": 24972,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 38423
+  }
+ },
+ {
+  "id": "SN-QFBCJ",
+  "startedAt": "2026-11-02T14:33:00Z",
+  "consentAt": "2026-11-02T14:33:30Z",
+  "completedAt": "2026-11-02T14:41:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 5,
+   "techConf": 7
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 2,
+   "t4": 5,
+   "t5": 2,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "ios",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3903,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.133,
+    "y": 0.118,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3918,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6649,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.604,
+    "y": 0.168,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6664,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9420,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.626,
+    "y": 0.673,
+    "target": "locked-tests"
+   },
+   {
+    "t": 9439,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 9456,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 9481,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 20577,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.243,
+    "y": 0.571,
+    "target": "autorenew"
+   },
+   {
+    "t": 20577,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 27320,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.539,
+    "y": 0.652,
+    "target": "pw-cta"
+   },
+   {
+    "t": 27320,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 27329,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 27329,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 32970,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.515,
+    "y": 0.929,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 32970,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 32970,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 32988,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 36816,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.768,
+    "y": 0.744,
+    "target": "finish"
+   },
+   {
+    "t": 36816,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 23549,
+   "decision_latency_ms": 17881,
+   "disclosure_visible_ms": 17848,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5641,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 36816
+  }
+ },
+ {
+  "id": "SN-P9UU7",
+  "startedAt": "2026-11-02T15:10:00Z",
+  "consentAt": "2026-11-02T15:10:30Z",
+  "completedAt": "2026-11-02T15:18:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "other",
+   "years": "<1",
+   "safer": "unsure",
+   "saferConf": 6,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 4,
+   "t2": 3,
+   "t3": 4,
+   "t4": 4,
+   "t5": 5,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4564,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.846,
+    "y": 0.818,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4579,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6440,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.627,
+    "y": 0.153,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6455,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10005,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.747,
+    "y": 0.777,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10018,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10046,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10064,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13454,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.495,
+    "y": 0.447,
+    "target": "plan-monthly"
+   },
+   {
+    "t": 13454,
+    "type": "plan_change",
+    "screen": "paywall",
+    "plan": "monthly"
+   },
+   {
+    "t": 19500,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.507,
+    "y": 0.626,
+    "target": "pw-cta"
+   },
+   {
+    "t": 19500,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 19507,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 19507,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 21389,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.468,
+    "y": 0.908,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 21389,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 21389,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "paid_monthly",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 21400,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 25356,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.218,
+    "y": 0.303,
+    "target": "finish"
+   },
+   {
+    "t": 25356,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "paid_monthly",
+   "susceptible": true,
+   "paywall_dwell_ms": 11382,
+   "decision_latency_ms": 9482,
+   "disclosure_visible_ms": 9443,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 1882,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 1,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 25356
+  }
+ },
+ {
+  "id": "SN-WHXAW",
+  "startedAt": "2026-11-02T15:47:00Z",
+  "consentAt": "2026-11-02T15:47:30Z",
+  "completedAt": "2026-11-02T15:55:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 3,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 3,
+   "t2": 2,
+   "t3": 4,
+   "t4": 4,
+   "t5": 4,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3379,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.161,
+    "y": 0.505,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3394,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6719,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.895,
+    "y": 0.409,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6734,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9945,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.16,
+    "y": 0.172,
+    "target": "locked-tests"
+   },
+   {
+    "t": 9963,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 9976,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10004,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13090,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.509,
+    "y": 0.616,
+    "target": "pw-cta"
+   },
+   {
+    "t": 13090,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 13097,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 13097,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 15520,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.474,
+    "y": 0.917,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 15520,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 15520,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 15537,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 18651,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.12,
+    "y": 0.103,
+    "target": "finish"
+   },
+   {
+    "t": 18651,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 5574,
+   "decision_latency_ms": 3127,
+   "disclosure_visible_ms": 3093,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 2423,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18651
+  }
+ },
+ {
+  "id": "SN-SS3RV",
+  "startedAt": "2026-11-02T16:24:00Z",
+  "consentAt": "2026-11-02T16:24:30Z",
+  "completedAt": "2026-11-02T16:32:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 4,
+   "t2": 2,
+   "t3": 4,
+   "t4": 2,
+   "t5": 3,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2977,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.84,
+    "y": 0.705,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2992,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7976,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.139,
+    "y": 0.181,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7991,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 11815,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.608,
+    "y": 0.219,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11829,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11847,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11884,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 20054,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.261,
+    "y": 0.571,
+    "target": "autorenew"
+   },
+   {
+    "t": 20054,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 36070,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.541,
+    "y": 0.615,
+    "target": "pw-cta"
+   },
+   {
+    "t": 36070,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 36079,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 36079,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 42078,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.504,
+    "y": 0.925,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 42078,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 42078,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 42094,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 45440,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.592,
+    "y": 0.211,
+    "target": "finish"
+   },
+   {
+    "t": 45440,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 30265,
+   "decision_latency_ms": 24241,
+   "disclosure_visible_ms": 24195,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5999,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 45440
+  }
+ },
+ {
+  "id": "SN-R2365",
+  "startedAt": "2026-11-02T17:01:00Z",
+  "consentAt": "2026-11-02T17:01:30Z",
+  "completedAt": "2026-11-02T17:09:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 5,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 6,
+   "t2": 4,
+   "t3": 3,
+   "t4": 5,
+   "t5": 2,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4609,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.46,
+    "y": 0.212,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4624,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6897,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.295,
+    "y": 0.24,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6912,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 11012,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.291,
+    "y": 0.307,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11031,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11042,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11048,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16429,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.527,
+    "y": 0.615,
+    "target": "pw-cta"
+   },
+   {
+    "t": 16429,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 16435,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 16435,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 21022,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.533,
+    "y": 0.917,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 21022,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 21022,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 21039,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23675,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.559,
+    "y": 0.388,
+    "target": "finish"
+   },
+   {
+    "t": 23675,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 10008,
+   "decision_latency_ms": 5398,
+   "disclosure_visible_ms": 5387,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 4587,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23675
+  }
+ },
+ {
+  "id": "SN-BN94F",
+  "startedAt": "2026-11-02T17:38:00Z",
+  "consentAt": "2026-11-02T17:38:30Z",
+  "completedAt": "2026-11-02T17:46:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "other",
+   "years": "5+",
+   "safer": "unsure",
+   "saferConf": 3,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 5,
+   "t2": 3,
+   "t3": 4,
+   "t4": 5,
+   "t5": 5,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3338,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.299,
+    "y": 0.187,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3353,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5470,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.222,
+    "y": 0.878,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5485,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8143,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.168,
+    "y": 0.721,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8143,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 9654,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.726,
+    "y": 0.286,
+    "target": "locked-tests"
+   },
+   {
+    "t": 9664,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 9689,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 9713,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 14809,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.224,
+    "y": 0.55,
+    "target": "autorenew"
+   },
+   {
+    "t": 14809,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 31142,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.495,
+    "y": 0.624,
+    "target": "pw-cta"
+   },
+   {
+    "t": 31142,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 31146,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 31146,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 34533,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.208,
+    "y": 0.869,
+    "target": "sheet-details"
+   },
+   {
+    "t": 34533,
+    "type": "view_details",
+    "screen": "paywall"
+   },
+   {
+    "t": 36042,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.525,
+    "y": 0.921,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 36042,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 36042,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 36059,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 38700,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.867,
+    "y": 0.616,
+    "target": "finish"
+   },
+   {
+    "t": 38700,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 26395,
+   "decision_latency_ms": 21478,
+   "disclosure_visible_ms": 21433,
+   "view_details_taps": 1,
+   "sheet_dwell_ms": 4896,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 38700
+  }
+ },
+ {
+  "id": "SN-FLXNM",
+  "startedAt": "2026-11-02T18:15:00Z",
+  "consentAt": "2026-11-02T18:15:30Z",
+  "completedAt": "2026-11-02T18:23:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 5,
+   "t4": 3,
+   "t5": 3,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1527,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.738,
+    "y": 0.691,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1542,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5094,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.154,
+    "y": 0.497,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5109,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 6688,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.285,
+    "y": 0.277,
+    "target": "deck-biology"
+   },
+   {
+    "t": 6688,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10604,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.187,
+    "y": 0.599,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10623,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10633,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10652,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16625,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.489,
+    "y": 0.615,
+    "target": "pw-cta"
+   },
+   {
+    "t": 16625,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 16630,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 16630,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 21353,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.522,
+    "y": 0.922,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 21353,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 21353,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 21372,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23453,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.432,
+    "y": 0.668,
+    "target": "finish"
+   },
+   {
+    "t": 23453,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 10749,
+   "decision_latency_ms": 6002,
+   "disclosure_visible_ms": 5978,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 4723,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23453
+  }
+ },
+ {
+  "id": "SN-EBQG8",
+  "startedAt": "2026-11-02T18:52:00Z",
+  "consentAt": "2026-11-02T18:52:30Z",
+  "completedAt": "2026-11-02T19:00:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "unsure",
+   "saferConf": 5,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 3,
+   "t2": 3,
+   "t3": 3,
+   "t4": 1,
+   "t5": 4,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 6
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2939,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.436,
+    "y": 0.808,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2954,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6737,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.871,
+    "y": 0.266,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6752,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8801,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.758,
+    "y": 0.446,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8801,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10704,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.664,
+    "y": 0.257,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10722,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10741,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10758,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 19055,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.208,
+    "y": 0.579,
+    "target": "autorenew"
+   },
+   {
+    "t": 19055,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 22047,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.485,
+    "y": 0.623,
+    "target": "pw-cta"
+   },
+   {
+    "t": 22047,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 22056,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 22056,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 23198,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.147,
+    "y": 0.865,
+    "target": "sheet-details"
+   },
+   {
+    "t": 23198,
+    "type": "view_details",
+    "screen": "paywall"
+   },
+   {
+    "t": 25205,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.498,
+    "y": 0.94,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 25205,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 25205,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 25224,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 28112,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.39,
+    "y": 0.368,
+    "target": "finish"
+   },
+   {
+    "t": 28112,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 14502,
+   "decision_latency_ms": 11325,
+   "disclosure_visible_ms": 11298,
+   "view_details_taps": 1,
+   "sheet_dwell_ms": 3149,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 28112
+  }
+ },
+ {
+  "id": "SN-7RHUU",
+  "startedAt": "2026-11-02T19:29:00Z",
+  "consentAt": "2026-11-02T19:29:30Z",
+  "completedAt": "2026-11-02T19:37:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "3-5",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 4,
+   "t2": 1,
+   "t3": 6,
+   "t4": 5,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1535,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.742,
+    "y": 0.691,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1550,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6405,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.654,
+    "y": 0.221,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6420,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8513,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.469,
+    "y": 0.727,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8513,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10660,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.51,
+    "y": 0.413,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10672,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10684,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10715,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13245,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.488,
+    "y": 0.622,
+    "target": "pw-cta"
+   },
+   {
+    "t": 13245,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 13253,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 13253,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 16069,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.472,
+    "y": 0.945,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 16069,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 16069,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 16080,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 18664,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.6,
+    "y": 0.267,
+    "target": "finish"
+   },
+   {
+    "t": 18664,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 5408,
+   "decision_latency_ms": 2573,
+   "disclosure_visible_ms": 2538,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 2816,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18664
+  }
+ },
+ {
+  "id": "SN-AGYPC",
+  "startedAt": "2026-11-02T20:06:00Z",
+  "consentAt": "2026-11-02T20:06:30Z",
+  "completedAt": "2026-11-02T20:14:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "1-3",
+   "safer": "ios",
+   "saferConf": 4,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 3,
+   "t2": 3,
+   "t3": 2,
+   "t4": 3,
+   "t5": 1,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3868,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.251,
+    "y": 0.152,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3883,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6398,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.894,
+    "y": 0.506,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6413,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 7609,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.623,
+    "y": 0.893,
+    "target": "deck-biology"
+   },
+   {
+    "t": 7609,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 9947,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.104,
+    "y": 0.806,
+    "target": "locked-tests"
+   },
+   {
+    "t": 9960,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 9979,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10007,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 14329,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.096,
+    "y": 0.074,
+    "target": "pw-close"
+   },
+   {
+    "t": 14329,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 14329,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 14329,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 14339,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 16615,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.58,
+    "y": 0.762,
+    "target": "finish"
+   },
+   {
+    "t": 16615,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 4379,
+   "decision_latency_ms": 4369,
+   "disclosure_visible_ms": 4322,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 16615
+  }
+ },
+ {
+  "id": "SN-BZN33",
+  "startedAt": "2026-11-02T20:43:00Z",
+  "consentAt": "2026-11-02T20:43:30Z",
+  "completedAt": "2026-11-02T20:51:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 3,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 4,
+   "t4": 4,
+   "t5": 2,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4853,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.362,
+    "y": 0.643,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4868,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7111,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.597,
+    "y": 0.162,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7126,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9941,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.538,
+    "y": 0.151,
+    "target": "deck-biology"
+   },
+   {
+    "t": 9941,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 12271,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.737,
+    "y": 0.631,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12283,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12308,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12347,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16093,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.469,
+    "y": 0.753,
+    "target": "pw-decline"
+   },
+   {
+    "t": 16093,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 16093,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 16093,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 16107,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 19285,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.891,
+    "y": 0.634,
+    "target": "finish"
+   },
+   {
+    "t": 19285,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 3824,
+   "decision_latency_ms": 3810,
+   "disclosure_visible_ms": 3746,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 19285
+  }
+ },
+ {
+  "id": "SN-8MPC3",
+  "startedAt": "2026-11-02T21:20:00Z",
+  "consentAt": "2026-11-02T21:20:30Z",
+  "completedAt": "2026-11-02T21:28:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "ios",
+   "saferConf": 2,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 3,
+   "t2": 2,
+   "t3": 2,
+   "t4": 2,
+   "t5": 3,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3759,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.214,
+    "y": 0.745,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3774,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6883,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.171,
+    "y": 0.598,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6898,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9749,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.237,
+    "y": 0.378,
+    "target": "deck-biology"
+   },
+   {
+    "t": 9749,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 12574,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.517,
+    "y": 0.84,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12585,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12602,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12638,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16254,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.482,
+    "y": 0.652,
+    "target": "pw-cta"
+   },
+   {
+    "t": 16254,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 16257,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 16257,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 21711,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.484,
+    "y": 0.935,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 21711,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 21711,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 21731,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 24819,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.169,
+    "y": 0.67,
+    "target": "finish"
+   },
+   {
+    "t": 24819,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 9146,
+   "decision_latency_ms": 3669,
+   "disclosure_visible_ms": 3619,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5454,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 24819
+  }
+ },
+ {
+  "id": "SN-CJFWF",
+  "startedAt": "2026-11-02T21:57:00Z",
+  "consentAt": "2026-11-02T21:57:30Z",
+  "completedAt": "2026-11-02T22:05:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "same",
+   "saferConf": 3,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 4,
+   "t4": 4,
+   "t5": 5,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "cant",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4235,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.771,
+    "y": 0.194,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4250,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 8190,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.465,
+    "y": 0.779,
+    "target": "onb-continue"
+   },
+   {
+    "t": 8205,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 13131,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.347,
+    "y": 0.299,
+    "target": "locked-tests"
+   },
+   {
+    "t": 13147,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 13173,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 13201,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 18861,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.471,
+    "y": 0.622,
+    "target": "pw-cta"
+   },
+   {
+    "t": 18861,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 18864,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 18864,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 24373,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.5,
+    "y": 0.907,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 24373,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 24373,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 24392,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 27769,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.769,
+    "y": 0.748,
+    "target": "finish"
+   },
+   {
+    "t": 27769,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 11245,
+   "decision_latency_ms": 5714,
+   "disclosure_visible_ms": 5663,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5509,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 27769
+  }
+ },
+ {
+  "id": "SN-SHDZ6",
+  "startedAt": "2026-11-02T22:34:00Z",
+  "consentAt": "2026-11-02T22:34:30Z",
+  "completedAt": "2026-11-02T22:42:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 6,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 4,
+   "t2": 5,
+   "t3": 3,
+   "t4": 5,
+   "t5": 4,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3514,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.33,
+    "y": 0.749,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3529,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 8270,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.232,
+    "y": 0.731,
+    "target": "onb-continue"
+   },
+   {
+    "t": 8285,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10306,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.766,
+    "y": 0.588,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10320,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10330,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10355,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 14607,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.527,
+    "y": 0.623,
+    "target": "pw-cta"
+   },
+   {
+    "t": 14607,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 14614,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 14614,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20228,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.533,
+    "y": 0.917,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20228,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20228,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 20247,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 22823,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.593,
+    "y": 0.29,
+    "target": "finish"
+   },
+   {
+    "t": 22823,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 9927,
+   "decision_latency_ms": 4287,
+   "disclosure_visible_ms": 4259,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5614,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 22823
+  }
+ },
+ {
+  "id": "SN-YQ4VJ",
+  "startedAt": "2026-11-02T23:11:00Z",
+  "consentAt": "2026-11-02T23:11:30Z",
+  "completedAt": "2026-11-02T23:19:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 2,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 2,
+   "t2": 3,
+   "t3": 3,
+   "t4": 4,
+   "t5": 3,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2975,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.365,
+    "y": 0.165,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2990,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5417,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.241,
+    "y": 0.695,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5432,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8330,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.303,
+    "y": 0.611,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8330,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 12391,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.686,
+    "y": 0.698,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12404,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12413,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12436,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 35622,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.526,
+    "y": 0.751,
+    "target": "pw-decline"
+   },
+   {
+    "t": 35622,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 35622,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 35622,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 35637,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 37332,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.206,
+    "y": 0.282,
+    "target": "finish"
+   },
+   {
+    "t": 37332,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 23233,
+   "decision_latency_ms": 23218,
+   "disclosure_visible_ms": 23186,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 37332
+  }
+ },
+ {
+  "id": "SN-VEVD8",
+  "startedAt": "2026-11-02T23:48:00Z",
+  "consentAt": "2026-11-02T23:48:30Z",
+  "completedAt": "2026-11-02T23:56:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "other",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 5,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 3,
+   "t2": 3,
+   "t3": 3,
+   "t4": 4,
+   "t5": 1,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "cant",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3146,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.749,
+    "y": 0.874,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3161,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 4875,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.616,
+    "y": 0.55,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4890,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 7492,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.582,
+    "y": 0.514,
+    "target": "deck-biology"
+   },
+   {
+    "t": 7492,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 13029,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.299,
+    "y": 0.823,
+    "target": "locked-tests"
+   },
+   {
+    "t": 13039,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 13045,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 13084,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16910,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.062,
+    "y": 0.085,
+    "target": "pw-close"
+   },
+   {
+    "t": 16910,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 16910,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 16910,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 16920,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 18849,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.11,
+    "y": 0.541,
+    "target": "finish"
+   },
+   {
+    "t": 18849,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 3881,
+   "decision_latency_ms": 3871,
+   "disclosure_visible_ms": 3826,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18849
+  }
+ },
+ {
+  "id": "SN-288AB",
+  "startedAt": "2026-11-03T00:25:00Z",
+  "consentAt": "2026-11-03T00:25:30Z",
+  "completedAt": "2026-11-03T00:33:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "android",
+   "saferConf": 4,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 5,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 6
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4137,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.131,
+    "y": 0.368,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4152,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 8707,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.84,
+    "y": 0.854,
+    "target": "onb-continue"
+   },
+   {
+    "t": 8722,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9722,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.313,
+    "y": 0.543,
+    "target": "deck-biology"
+   },
+   {
+    "t": 9722,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 14794,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.649,
+    "y": 0.834,
+    "target": "locked-tests"
+   },
+   {
+    "t": 14808,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 14822,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 14840,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 20639,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.498,
+    "y": 0.762,
+    "target": "pw-decline"
+   },
+   {
+    "t": 20639,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 20639,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 20639,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20653,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 23120,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.773,
+    "y": 0.262,
+    "target": "finish"
+   },
+   {
+    "t": 23120,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 5845,
+   "decision_latency_ms": 5831,
+   "disclosure_visible_ms": 5799,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23120
+  }
+ },
+ {
+  "id": "SN-U8GJG",
+  "startedAt": "2026-11-03T01:02:00Z",
+  "consentAt": "2026-11-03T01:02:30Z",
+  "completedAt": "2026-11-03T01:10:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "ios",
+   "saferConf": 4,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 4,
+   "t2": 3,
+   "t3": 4,
+   "t4": 5,
+   "t5": 7,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "cant",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2092,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.126,
+    "y": 0.19,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2107,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6139,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.843,
+    "y": 0.376,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6154,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 7056,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.125,
+    "y": 0.211,
+    "target": "deck-biology"
+   },
+   {
+    "t": 7056,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 8905,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.658,
+    "y": 0.689,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8916,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 8939,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8967,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13599,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.523,
+    "y": 0.74,
+    "target": "pw-decline"
+   },
+   {
+    "t": 13599,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 13599,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 13599,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 13619,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 15389,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.804,
+    "y": 0.705,
+    "target": "finish"
+   },
+   {
+    "t": 15389,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 4703,
+   "decision_latency_ms": 4683,
+   "disclosure_visible_ms": 4632,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 15389
+  }
+ },
+ {
+  "id": "SN-M9YSL",
+  "startedAt": "2026-11-03T01:39:00Z",
+  "consentAt": "2026-11-03T01:39:30Z",
+  "completedAt": "2026-11-03T01:47:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "unsure",
+   "saferConf": 3,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 3,
+   "t2": 3,
+   "t3": 3,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2814,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.715,
+    "y": 0.582,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2829,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6264,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.781,
+    "y": 0.595,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6279,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8755,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.125,
+    "y": 0.515,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8755,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 11060,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.377,
+    "y": 0.664,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11078,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11101,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11119,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 17097,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.095,
+    "y": 0.071,
+    "target": "pw-close"
+   },
+   {
+    "t": 17097,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 17097,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 17097,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 17113,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 18618,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.519,
+    "y": 0.331,
+    "target": "finish"
+   },
+   {
+    "t": 18618,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 6035,
+   "decision_latency_ms": 6019,
+   "disclosure_visible_ms": 5978,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18618
+  }
+ },
+ {
+  "id": "SN-SQJX7",
+  "startedAt": "2026-11-03T02:16:00Z",
+  "consentAt": "2026-11-03T02:16:30Z",
+  "completedAt": "2026-11-03T02:24:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "1-3",
+   "safer": "android",
+   "saferConf": 4,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 4,
+   "t2": 5,
+   "t3": 5,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1928,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.602,
+    "y": 0.384,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1943,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5071,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.843,
+    "y": 0.813,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5086,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10029,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.811,
+    "y": 0.12,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10042,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10056,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10077,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15583,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.529,
+    "y": 0.622,
+    "target": "pw-cta"
+   },
+   {
+    "t": 15583,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 15592,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 15592,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 19005,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.515,
+    "y": 0.918,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 19005,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 19005,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 19024,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 23003,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.617,
+    "y": 0.379,
+    "target": "finish"
+   },
+   {
+    "t": 23003,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 8982,
+   "decision_latency_ms": 5541,
+   "disclosure_visible_ms": 5515,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 3413,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 23003
+  }
+ },
+ {
+  "id": "SN-BKS3A",
+  "startedAt": "2026-11-03T02:53:00Z",
+  "consentAt": "2026-11-03T02:53:30Z",
+  "completedAt": "2026-11-03T03:01:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "5+",
+   "safer": "same",
+   "saferConf": 6,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 3,
+   "t4": 4,
+   "t5": 7,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2927,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.229,
+    "y": 0.362,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2942,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5202,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.307,
+    "y": 0.864,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5217,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8050,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.87,
+    "y": 0.181,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8066,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 8075,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8089,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 12563,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.482,
+    "y": 0.629,
+    "target": "pw-cta"
+   },
+   {
+    "t": 12563,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 12569,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 12569,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 14964,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.468,
+    "y": 0.916,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 14964,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 14964,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 14977,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 18067,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.471,
+    "y": 0.11,
+    "target": "finish"
+   },
+   {
+    "t": 18067,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 6911,
+   "decision_latency_ms": 4497,
+   "disclosure_visible_ms": 4480,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 2395,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18067
+  }
+ },
+ {
+  "id": "SN-8BZX4",
+  "startedAt": "2026-11-03T03:30:00Z",
+  "consentAt": "2026-11-03T03:30:30Z",
+  "completedAt": "2026-11-03T03:38:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 5,
+   "t2": 5,
+   "t3": 5,
+   "t4": 3,
+   "t5": 5,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3359,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.446,
+    "y": 0.308,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3374,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7728,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.178,
+    "y": 0.436,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7743,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10509,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.3,
+    "y": 0.439,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10526,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10531,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10562,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 16807,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.469,
+    "y": 0.605,
+    "target": "pw-cta"
+   },
+   {
+    "t": 16807,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 16812,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 16812,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20999,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.505,
+    "y": 0.908,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20999,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20999,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 21016,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 22951,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.131,
+    "y": 0.535,
+    "target": "finish"
+   },
+   {
+    "t": 22951,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 10490,
+   "decision_latency_ms": 6281,
+   "disclosure_visible_ms": 6250,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 4187,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 22951
+  }
+ },
+ {
+  "id": "SN-N8QKY",
+  "startedAt": "2026-11-03T04:07:00Z",
+  "consentAt": "2026-11-03T04:07:30Z",
+  "completedAt": "2026-11-03T04:15:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "other",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 4,
+   "techConf": 7
+  },
+  "post": {
+   "t1": 5,
+   "t2": 4,
+   "t3": 4,
+   "t4": 5,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2956,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.61,
+    "y": 0.302,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2971,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6020,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.42,
+    "y": 0.111,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6035,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 10965,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.603,
+    "y": 0.64,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10984,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10997,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11008,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15846,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.523,
+    "y": 0.756,
+    "target": "pw-decline"
+   },
+   {
+    "t": 15846,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 15846,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 15846,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 15864,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 18260,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.895,
+    "y": 0.869,
+    "target": "finish"
+   },
+   {
+    "t": 18260,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 4880,
+   "decision_latency_ms": 4862,
+   "disclosure_visible_ms": 4838,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 18260
+  }
+ },
+ {
+  "id": "SN-KP3LF",
+  "startedAt": "2026-11-03T04:44:00Z",
+  "consentAt": "2026-11-03T04:44:30Z",
+  "completedAt": "2026-11-03T04:52:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "3-5",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 5,
+   "t2": 4,
+   "t3": 3,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 4315,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.303,
+    "y": 0.441,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4330,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6576,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.485,
+    "y": 0.744,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6591,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 11008,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.296,
+    "y": 0.341,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11025,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11045,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11077,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13276,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.485,
+    "y": 0.47,
+    "target": "plan-monthly"
+   },
+   {
+    "t": 13276,
+    "type": "plan_change",
+    "screen": "paywall",
+    "plan": "monthly"
+   },
+   {
+    "t": 17759,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.506,
+    "y": 0.627,
+    "target": "pw-cta"
+   },
+   {
+    "t": 17759,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 17767,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 17767,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20417,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.473,
+    "y": 0.918,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20417,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20417,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "paid_monthly",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 20436,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 21997,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.626,
+    "y": 0.268,
+    "target": "finish"
+   },
+   {
+    "t": 21997,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "paid_monthly",
+   "susceptible": true,
+   "paywall_dwell_ms": 9411,
+   "decision_latency_ms": 6734,
+   "disclosure_visible_ms": 6690,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 2650,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 1,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 21997
+  }
+ },
+ {
+  "id": "SN-89KCP",
+  "startedAt": "2026-11-03T05:21:00Z",
+  "consentAt": "2026-11-03T05:21:30Z",
+  "completedAt": "2026-11-03T05:29:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "1-3",
+   "safer": "ios",
+   "saferConf": 7,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 4,
+   "t4": 6,
+   "t5": 5,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "cant",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3216,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.287,
+    "y": 0.211,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3231,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6735,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.546,
+    "y": 0.487,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6750,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 12260,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.297,
+    "y": 0.232,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12279,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12307,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12312,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15625,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.485,
+    "y": 0.637,
+    "target": "pw-cta"
+   },
+   {
+    "t": 15625,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 15635,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 15635,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 19566,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.472,
+    "y": 0.926,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 19566,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 19566,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 19582,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 21390,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.244,
+    "y": 0.388,
+    "target": "finish"
+   },
+   {
+    "t": 21390,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 7303,
+   "decision_latency_ms": 3346,
+   "disclosure_visible_ms": 3323,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 3931,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 21390
+  }
+ },
+ {
+  "id": "SN-2KFPC",
+  "startedAt": "2026-11-03T05:58:00Z",
+  "consentAt": "2026-11-03T05:58:30Z",
+  "completedAt": "2026-11-03T06:06:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "android",
+   "saferConf": 3,
+   "techConf": 3
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 5,
+   "t4": 3,
+   "t5": 4,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2363,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.327,
+    "y": 0.374,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2378,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 4893,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.543,
+    "y": 0.761,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4908,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 7715,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.423,
+    "y": 0.503,
+    "target": "deck-biology"
+   },
+   {
+    "t": 7715,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 11440,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.798,
+    "y": 0.376,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11453,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11478,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11514,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13980,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.487,
+    "y": 0.489,
+    "target": "plan-monthly"
+   },
+   {
+    "t": 13980,
+    "type": "plan_change",
+    "screen": "paywall",
+    "plan": "monthly"
+   },
+   {
+    "t": 18431,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.556,
+    "y": 0.653,
+    "target": "pw-cta"
+   },
+   {
+    "t": 18431,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 18435,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 18435,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 20263,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.469,
+    "y": 0.929,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 20263,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 20263,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "paid_monthly",
+    "plan": "monthly",
+    "on": true
+   },
+   {
+    "t": 20279,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 24012,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.559,
+    "y": 0.419,
+    "target": "finish"
+   },
+   {
+    "t": 24012,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "paid_monthly",
+   "susceptible": true,
+   "paywall_dwell_ms": 8826,
+   "decision_latency_ms": 6978,
+   "disclosure_visible_ms": 6921,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 1828,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 1,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 24012
+  }
+ },
+ {
+  "id": "SN-BTR6M",
+  "startedAt": "2026-11-03T06:35:00Z",
+  "consentAt": "2026-11-03T06:35:30Z",
+  "completedAt": "2026-11-03T06:43:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": false,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "same",
+   "saferConf": 7,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 4,
+   "t2": 5,
+   "t3": 5,
+   "t4": 5,
+   "t5": 4,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3010,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.798,
+    "y": 0.211,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3025,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5777,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.55,
+    "y": 0.306,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5792,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8304,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.127,
+    "y": 0.116,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8304,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10251,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.498,
+    "y": 0.518,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10262,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10291,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10322,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 19951,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.239,
+    "y": 0.558,
+    "target": "autorenew"
+   },
+   {
+    "t": 19951,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 34636,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.502,
+    "y": 0.599,
+    "target": "pw-cta"
+   },
+   {
+    "t": 34636,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 34641,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 34641,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 37330,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.147,
+    "y": 0.855,
+    "target": "sheet-details"
+   },
+   {
+    "t": 37330,
+    "type": "view_details",
+    "screen": "paywall"
+   },
+   {
+    "t": 42698,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.496,
+    "y": 0.922,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 42698,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 42698,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 42708,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 45956,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.104,
+    "y": 0.647,
+    "target": "finish"
+   },
+   {
+    "t": 45956,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 32446,
+   "decision_latency_ms": 24374,
+   "disclosure_visible_ms": 24319,
+   "view_details_taps": 1,
+   "sheet_dwell_ms": 8057,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 45956
+  }
+ },
+ {
+  "id": "SN-TDXAK",
+  "startedAt": "2026-11-03T07:12:00Z",
+  "consentAt": "2026-11-03T07:12:30Z",
+  "completedAt": "2026-11-03T07:20:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "android",
+   "saferConf": 3,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 4,
+   "t2": 3,
+   "t3": 4,
+   "t4": 3,
+   "t5": 3,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "unsure",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 6
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1715,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.674,
+    "y": 0.109,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1730,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 3275,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.807,
+    "y": 0.649,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3290,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 7961,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.349,
+    "y": 0.684,
+    "target": "locked-tests"
+   },
+   {
+    "t": 7973,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 7993,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8001,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 12591,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.474,
+    "y": 0.642,
+    "target": "pw-cta"
+   },
+   {
+    "t": 12591,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 12601,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 12601,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 17949,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.493,
+    "y": 0.914,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 17949,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 17949,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 17960,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 20947,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.863,
+    "y": 0.231,
+    "target": "finish"
+   },
+   {
+    "t": 20947,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 9987,
+   "decision_latency_ms": 4618,
+   "disclosure_visible_ms": 4600,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 5348,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 20947
+  }
+ },
+ {
+  "id": "SN-PSA27",
+  "startedAt": "2026-11-03T07:49:00Z",
+  "consentAt": "2026-11-03T07:49:30Z",
+  "completedAt": "2026-11-03T07:57:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "3-5",
+   "safer": "same",
+   "saferConf": 3,
+   "techConf": 6
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 3,
+   "t4": 2,
+   "t5": 2,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "ios",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2597,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.438,
+    "y": 0.569,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2612,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 7439,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.711,
+    "y": 0.726,
+    "target": "onb-continue"
+   },
+   {
+    "t": 7454,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8815,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.749,
+    "y": 0.794,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8815,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 11519,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.319,
+    "y": 0.781,
+    "target": "locked-tests"
+   },
+   {
+    "t": 11537,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 11563,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 11599,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 25964,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.13,
+    "y": 0.065,
+    "target": "pw-close"
+   },
+   {
+    "t": 25964,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 25964,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 25964,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 25981,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 29044,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.26,
+    "y": 0.7,
+    "target": "finish"
+   },
+   {
+    "t": 29044,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 14444,
+   "decision_latency_ms": 14427,
+   "disclosure_visible_ms": 14365,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 29044
+  }
+ },
+ {
+  "id": "SN-P9PST",
+  "startedAt": "2026-11-03T08:26:00Z",
+  "consentAt": "2026-11-03T08:26:30Z",
+  "completedAt": "2026-11-03T08:34:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "5+",
+   "safer": "same",
+   "saferConf": 6,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 4,
+   "t2": 4,
+   "t3": 4,
+   "t4": 4,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2814,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.481,
+    "y": 0.571,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2829,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 5088,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.27,
+    "y": 0.174,
+    "target": "onb-continue"
+   },
+   {
+    "t": 5103,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8962,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.39,
+    "y": 0.552,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8978,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 9007,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 9045,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13265,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.502,
+    "y": 0.787,
+    "target": "pw-decline"
+   },
+   {
+    "t": 13265,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 13265,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 13265,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 13282,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 16314,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.793,
+    "y": 0.397,
+    "target": "finish"
+   },
+   {
+    "t": 16314,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 4304,
+   "decision_latency_ms": 4287,
+   "disclosure_visible_ms": 4220,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 16314
+  }
+ },
+ {
+  "id": "SN-SYDBD",
+  "startedAt": "2026-11-03T09:03:00Z",
+  "consentAt": "2026-11-03T09:03:30Z",
+  "completedAt": "2026-11-03T09:11:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 3,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 4,
+   "t2": 5,
+   "t3": 6,
+   "t4": 4,
+   "t5": 4,
+   "recall1": "I think it keeps going and charges me something.",
+   "recall2": "Maybe, not sure how much.",
+   "misleading": "yes",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 3
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3049,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.167,
+    "y": 0.141,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3064,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6832,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.396,
+    "y": 0.664,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6847,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8857,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.79,
+    "y": 0.612,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8868,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 8895,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8905,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 14011,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.54,
+    "y": 0.756,
+    "target": "pw-decline"
+   },
+   {
+    "t": 14011,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 14011,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 14011,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 14022,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 17596,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.414,
+    "y": 0.459,
+    "target": "finish"
+   },
+   {
+    "t": 17596,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 5154,
+   "decision_latency_ms": 5143,
+   "disclosure_visible_ms": 5106,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 17596
+  }
+ },
+ {
+  "id": "SN-9FA48",
+  "startedAt": "2026-11-01T16:30:00Z",
+  "consentAt": "2026-11-01T16:30:30Z",
+  "completedAt": "2026-11-01T16:38:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "ios",
+   "saferConf": 6,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 6,
+   "t2": 5,
+   "t3": 3,
+   "t4": 5,
+   "t5": 6,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "ios",
+   "familiar": 4
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 3314,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.102,
+    "y": 0.766,
+    "target": "onb-continue"
+   },
+   {
+    "t": 3329,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6970,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.329,
+    "y": 0.388,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6985,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 9445,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.275,
+    "y": 0.557,
+    "target": "deck-biology"
+   },
+   {
+    "t": 9445,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 12076,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.775,
+    "y": 0.517,
+    "target": "locked-tests"
+   },
+   {
+    "t": 12089,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 12116,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 12132,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 15743,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.455,
+    "y": 0.617,
+    "target": "pw-cta"
+   },
+   {
+    "t": 15743,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 15753,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 15753,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 19496,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.507,
+    "y": 0.926,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 19496,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 19496,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_autorenew",
+    "plan": "annual",
+    "on": true
+   },
+   {
+    "t": 19516,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 21803,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.566,
+    "y": 0.262,
+    "target": "finish"
+   },
+   {
+    "t": 21803,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_autorenew",
+   "susceptible": true,
+   "paywall_dwell_ms": 7427,
+   "decision_latency_ms": 3654,
+   "disclosure_visible_ms": 3621,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 3743,
+   "sheet_opens": 1,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 21803
+  }
+ },
+ {
+  "id": "SN-GNSB7",
+  "startedAt": "2026-11-04T17:07:00Z",
+  "consentAt": "2026-11-04T17:07:30Z",
+  "completedAt": "2026-11-04T17:15:00Z",
+  "status": "complete",
+  "demo": true,
+  "condition": "md",
+  "assignment": "demo-forced",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "5+",
+   "safer": "ios",
+   "saferConf": 2,
+   "techConf": 4
+  },
+  "post": {
+   "t1": 3,
+   "t2": 4,
+   "t3": 4,
+   "t4": 4,
+   "t5": 6,
+   "recall1": "It just ends and I go back to free.",
+   "recall2": "No, it was free.",
+   "misleading": "no",
+   "misleadingWhat": "",
+   "manip": "android",
+   "familiar": 5
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 2958,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.516,
+    "y": 0.457,
+    "target": "onb-continue"
+   },
+   {
+    "t": 2973,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 6570,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.157,
+    "y": 0.385,
+    "target": "onb-continue"
+   },
+   {
+    "t": 6585,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 8684,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.723,
+    "y": 0.794,
+    "target": "deck-biology"
+   },
+   {
+    "t": 8684,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 10685,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.333,
+    "y": 0.186,
+    "target": "locked-tests"
+   },
+   {
+    "t": 10702,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 10721,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 10758,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 13968,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.519,
+    "y": 0.745,
+    "target": "pw-decline"
+   },
+   {
+    "t": 13968,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "decline"
+   },
+   {
+    "t": 13968,
+    "type": "declined",
+    "screen": "paywall",
+    "outcome": "declined"
+   },
+   {
+    "t": 13968,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 13978,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 16475,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.874,
+    "y": 0.279,
+    "target": "finish"
+   },
+   {
+    "t": 16475,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "declined",
+   "susceptible": false,
+   "paywall_dwell_ms": 3276,
+   "decision_latency_ms": 3266,
+   "disclosure_visible_ms": 3210,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 16475
+  }
+ },
+ {
+  "id": "SN-WKYR5",
+  "startedAt": "2026-11-04T17:44:00Z",
+  "consentAt": "2026-11-04T17:44:30Z",
+  "completedAt": "2026-11-04T17:52:00Z",
+  "status": "abandoned",
+  "demo": false,
+  "condition": "ios",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "android",
+   "years": "<1",
+   "safer": "ios",
+   "saferConf": 6,
+   "techConf": 4
+  },
+  "post": null,
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "ios",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 1950,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.198,
+    "y": 0.425,
+    "target": "onb-continue"
+   },
+   {
+    "t": 1965,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 4010,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.533,
+    "y": 0.282,
+    "target": "onb-continue"
+   },
+   {
+    "t": 4025,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 6702,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.697,
+    "y": 0.231,
+    "target": "deck-biology"
+   },
+   {
+    "t": 6702,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 8353,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.85,
+    "y": 0.411,
+    "target": "locked-tests"
+   },
+   {
+    "t": 8369,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 8393,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 8431,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 12617,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.023,
+    "y": 0.097,
+    "target": "pw-close"
+   },
+   {
+    "t": 12617,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "close"
+   },
+   {
+    "t": 12617,
+    "type": "closed_paywall",
+    "screen": "paywall",
+    "outcome": "closed"
+   },
+   {
+    "t": 12617,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 12632,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 15518,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.421,
+    "y": 0.771,
+    "target": "finish"
+   },
+   {
+    "t": 15518,
+    "type": "task_end",
+    "screen": "home"
+   }
+  ],
+  "metrics": {
+   "outcome": "closed",
+   "susceptible": false,
+   "paywall_dwell_ms": 4263,
+   "decision_latency_ms": 4248,
+   "disclosure_visible_ms": 4186,
+   "view_details_taps": 0,
+   "sheet_dwell_ms": 0,
+   "sheet_opens": 0,
+   "autorenew_toggles": 0,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 15518
+  }
+ },
+ {
+  "id": "SN-FU7Q2",
+  "startedAt": "2026-11-04T18:21:00Z",
+  "consentAt": "2026-11-04T18:21:30Z",
+  "completedAt": "2026-11-04T18:29:00Z",
+  "status": "complete",
+  "demo": false,
+  "condition": "md",
+  "assignment": "stratified-block",
+  "mobile": true,
+  "ua": "synthetic",
+  "screen": [
+   390,
+   844
+  ],
+  "trialEnd": "31 Oct 2026",
+  "bg": {
+   "own": "ios",
+   "years": "3-5",
+   "safer": "ios",
+   "saferConf": 6,
+   "techConf": 5
+  },
+  "post": {
+   "t1": 3,
+   "t2": 1,
+   "t3": 3,
+   "t4": 4,
+   "t5": 2,
+   "recall1": "It turns into a yearly plan and charges Rs 2,999 unless I cancel.",
+   "recall2": "Yes, about Rs 2,999 after 7 days.",
+   "misleading": "yes",
+   "misleadingWhat": "The tick box was already on and the price was tiny.",
+   "manip": "android",
+   "familiar": 7
+  },
+  "events": [
+   {
+    "t": 0,
+    "type": "app_start",
+    "screen": "onb1",
+    "condition": "md",
+    "viewport": [
+     390,
+     844
+    ]
+   },
+   {
+    "t": 0,
+    "type": "screen_enter",
+    "screen": "onb1"
+   },
+   {
+    "t": 242,
+    "type": "tap",
+    "screen": "onb1",
+    "x": 0.212,
+    "y": 0.876,
+    "target": "onb-continue"
+   },
+   {
+    "t": 243,
+    "type": "screen_enter",
+    "screen": "onb2"
+   },
+   {
+    "t": 710,
+    "type": "tap",
+    "screen": "onb2",
+    "x": 0.898,
+    "y": 0.463,
+    "target": "onb-continue"
+   },
+   {
+    "t": 711,
+    "type": "screen_enter",
+    "screen": "home"
+   },
+   {
+    "t": 806,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.127,
+    "y": 0.613,
+    "target": "deck-biology"
+   },
+   {
+    "t": 806,
+    "type": "deck_tap",
+    "screen": "home",
+    "deck": "biology"
+   },
+   {
+    "t": 1174,
+    "type": "tap",
+    "screen": "home",
+    "x": 0.834,
+    "y": 0.599,
+    "target": "locked-tests"
+   },
+   {
+    "t": 1176,
+    "type": "screen_enter",
+    "screen": "paywall"
+   },
+   {
+    "t": 1178,
+    "type": "scroll",
+    "screen": "paywall",
+    "pct": 100
+   },
+   {
+    "t": 1179,
+    "type": "disclosure_visible",
+    "screen": "paywall"
+   },
+   {
+    "t": 1643,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.277,
+    "y": 0.56,
+    "target": "autorenew"
+   },
+   {
+    "t": 1643,
+    "type": "autorenew_toggle",
+    "screen": "paywall",
+    "on": false
+   },
+   {
+    "t": 3265,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.536,
+    "y": 0.63,
+    "target": "pw-cta"
+   },
+   {
+    "t": 3265,
+    "type": "first_decision",
+    "screen": "paywall",
+    "kind": "cta"
+   },
+   {
+    "t": 3265,
+    "type": "sheet_open",
+    "screen": "paywall",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 3265,
+    "type": "disclosure_hidden",
+    "screen": "paywall"
+   },
+   {
+    "t": 3630,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.208,
+    "y": 0.862,
+    "target": "sheet-details"
+   },
+   {
+    "t": 3630,
+    "type": "view_details",
+    "screen": "paywall"
+   },
+   {
+    "t": 4201,
+    "type": "tap",
+    "screen": "paywall",
+    "x": 0.509,
+    "y": 0.924,
+    "target": "sheet-subscribe"
+   },
+   {
+    "t": 4201,
+    "type": "sheet_close",
+    "screen": "paywall",
+    "how": "subscribe"
+   },
+   {
+    "t": 4201,
+    "type": "subscribed",
+    "screen": "paywall",
+    "outcome": "trial_no_renew",
+    "plan": "annual",
+    "on": false
+   },
+   {
+    "t": 4203,
+    "type": "screen_enter",
+    "screen": "plus"
+   },
+   {
+    "t": 4571,
+    "type": "tap",
+    "screen": "plus",
+    "x": 0.846,
+    "y": 0.452,
+    "target": "finish"
+   },
+   {
+    "t": 4571,
+    "type": "task_end",
+    "screen": "plus"
+   }
+  ],
+  "metrics": {
+   "outcome": "trial_no_renew",
+   "susceptible": false,
+   "paywall_dwell_ms": 3027,
+   "decision_latency_ms": 2089,
+   "disclosure_visible_ms": 2086,
+   "view_details_taps": 1,
+   "sheet_dwell_ms": 936,
+   "sheet_opens": 1,
+   "autorenew_toggles": 1,
+   "plan_changes": 0,
+   "paywall_max_scroll_pct": 100,
+   "task_total_ms": 4571
+  }
+ }
+]

@@ -1,0 +1,2 @@
+# One participant ID per line. These sessions are excluded from analysis.
+SN-9FA48
