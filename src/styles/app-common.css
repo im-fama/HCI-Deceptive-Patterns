@@ -60,6 +60,7 @@
 
 .sn-device {
   position: relative;
+  box-sizing: content-box; /* bezel sits outside the 390×800 screen */
   width: 390px;
   height: 800px;
   border: 10px solid #0b0d0c;
@@ -78,6 +79,10 @@
   align-items: center;
   justify-content: space-between;
   user-select: none;
+}
+/* Dim the fake status bar with the sheet scrim. */
+.sn-device:has(.sheet-layer) .sn-statusbar {
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .sn-viewport {
